@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple.co - Carrito de Compras</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <body>
+        <div class="carrito">
+          <div class="productos">
+            <h2>Carro de Compras</h2>
+            <div class="producto">
+              <img src="assets/img/producto1.png" alt="Polera Burdeo">
+              <div>
+                <p>Polera</p>
+                <p>Color Burdeo</p>
+              </div>
+              <div class="cantidad">
+                <button class="decremento">-</button>
+                <span>1</span>
+                <button class="incremento">+</button>
+              </div>
+              <p>$44.000</p>
+            </div>
+      
+            <div class="producto">
+              <img src="assets/img/producto2.png" alt="Polera Gris">
+              <div>
+                <p>Polera</p>
+                <p>Color Gris</p>
+              </div>
+              <div class="cantidad">
+                <button class="decremento">-</button>
+                <span>1</span>
+                <button class="incremento">+</button>
+              </div>
+              <p>$44.000</p>
+            </div>
+      
+            <div class="producto">
+              <img src="assets/img/producto3.png" alt="Polera Negro">
+              <div>
+                <p>Polera</p>
+                <p>Color Negro</p>
+              </div>
+              <div class="cantidad">
+                <button class="decremento">-</button>
+                <span>1</span>
+                <button class="incremento">+</button>
+              </div>
+              <p>$44.000</p>
+            </div>
+          </div>
+      
+          <div class="resumen">
+            <h3>Resumen de la Compra</h3>
+            <p>3 artículos: $132.000</p>
+            <label for="envio">ENVÍO</label>
+            <select id="envio">
+              <option value="5000">Envío Express $5.000</option>
+            </select>
+      
+            <label for="codigo">CÓDIGO DE DESCUENTO</label>
+            <input type="text" id="codigo" placeholder="Ingresa tu código">
+            <button id="aplicar-codigo">→</button>
+      
+            <p>PRECIO TOTAL: $137.000</p>
+            <button id="realizar-compra">Realizar Compra</button>
+          </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/logica.js"></script>
+</body>
+</html>
